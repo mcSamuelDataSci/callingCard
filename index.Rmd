@@ -1,0 +1,82 @@
+---
+title: "Michael C. Samuel, DrPH"
+output:
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+<style type="text/css">
+
+body{/* Normal  */
+     font-size: 16px;}
+
+h1.title {font-size: 25px;
+          color: DarkRed;
+          font-family: "Times New Roman";
+          margin-top: 30px;}
+
+h1 {/* Header 1 */
+  font-size: 18px;}
+
+h2 { /* Header 2 */
+    font-size: 20px;
+    color: DarkRed;}
+
+</style>
+
+ 
+
+<br>
+
+# Senior Epidemiologist / Data Scientist
+
+*  California Department of Public Health
+*  University of California San Francisco
+
+
+# Example Projects and Activities
+
+
+*  <a target="_blank" rel="noopener noreferrer" href="https://discovery.cdph.ca.gov/fusion/communityburden/)">Key work project:  California Community Burden of Disease Engine</a>
+*  <a target="_blank" rel="noopener noreferrer" href="https://github.com/mcSamuelDataSci/">GitHub Site</a>
+* <a target="_blank" rel="noopener noreferrer" href="https://scholar.google.ca/citations?view_op=list_works&hl=en&user=eP0-Z04AAAAJ&gmla=AJsN-F6_KIIXGk6cFMgGswLXImQ0vopI6uIwDh7J17jKe3peyLK-xNjczktM_-9xDf-WHCrFVlYM-eXzatKdjfS-fdul8le5LG1ihZ0k3eD-7eoWxmQVv0Fxi0Z1-3xjJBNSW8XkNhwk">Publications</a>
+*  <a target="_blank" rel="noopener noreferrer" href="https://dlab.berkeley.edu/people/dr-michael-samuel">Visual Display Workshops</a>
+
+
+#  Education 
+*  DrPH - Biostatistics/Epidemiology, University of California, Berkeley
+*  MPH  - Biostatistics, University of California, Berkeley 
+*  B.S. - Conservation and Resource Studies,  University of California, Berkeley
+
+
+# Contact
+*  Michael.Samuel@cdph.ca.gov
+*  samfam921@gmail.com
+*  cell 925.285.2926
+
+<br>
+
+# A reasonably normal guy
+
+```{r echo = FALSE, fig.height=.8, fig.width=2}
+library(ggplot2)
+
+tDat <- data.frame(myDat = rnorm(1000))
+
+
+ggplot(data=tDat, aes(x=myDat)) + geom_density(size=1.2,fill="cyan") + theme_void()
+```
+
+
+
+
+
+
+
+
+
+

@@ -6,9 +6,29 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+
+# https://mcsamueldatasci.github.io/callingCard/
+# https://michael-samuel-epidata.netlify.app/
+
+# https://app.netlify.com/sites/michael-samuel-epidata/settings/domain
+# mcSamuelDatasci.github.io/callingCard
+# https://holtzy.github.io/Pimp-my-rmd/
+
+# https://gt.rstudio.com/
+
+
+# https://covid19datahub.io/
+# https://appsilon.com/ 
+# https://appsilon.com/blog/ (good training resources?)
+
+
+library(readr)
+covid <- read_csv("COVID-19_Case_Surveillance_Public_Use_Data.csv")
+
+
 ```
 
-
+```{=html}
 <style type="text/css">
 
 body{/* Normal  */
@@ -27,36 +47,32 @@ h2 { /* Header 2 */
     color: DarkRed;}
 
 </style>
-
- 
-
+```
 <br>
 
 # Senior Epidemiologist / Data Scientist
 
-*  California Department of Public Health
-*  University of California San Francisco
-
+-   California Department of Public Health
+-   University of California San Francisco
 
 # Example Projects and Activities
 
+-   <a target="_blank" rel="noopener noreferrer" href="https://discovery.cdph.ca.gov/fusion/communityburden/)">Key work project: California Community Burden of Disease Engine</a>
+-   <a target="_blank" rel="noopener noreferrer" href="https://github.com/mcSamuelDataSci/">GitHub Site</a>
+-   <a target="_blank" rel="noopener noreferrer" href="https://scholar.google.ca/citations?view_op=list_works&hl=en&user=eP0-Z04AAAAJ&gmla=AJsN-F6_KIIXGk6cFMgGswLXImQ0vopI6uIwDh7J17jKe3peyLK-xNjczktM_-9xDf-WHCrFVlYM-eXzatKdjfS-fdul8le5LG1ihZ0k3eD-7eoWxmQVv0Fxi0Z1-3xjJBNSW8XkNhwk">Publications</a>
+-   <a target="_blank" rel="noopener noreferrer" href="https://dlab.berkeley.edu/people/dr-michael-samuel">Visual Display Workshops</a>
 
-*  <a target="_blank" rel="noopener noreferrer" href="https://discovery.cdph.ca.gov/fusion/communityburden/)">Key work project:  California Community Burden of Disease Engine</a>
-*  <a target="_blank" rel="noopener noreferrer" href="https://github.com/mcSamuelDataSci/">GitHub Site</a>
-* <a target="_blank" rel="noopener noreferrer" href="https://scholar.google.ca/citations?view_op=list_works&hl=en&user=eP0-Z04AAAAJ&gmla=AJsN-F6_KIIXGk6cFMgGswLXImQ0vopI6uIwDh7J17jKe3peyLK-xNjczktM_-9xDf-WHCrFVlYM-eXzatKdjfS-fdul8le5LG1ihZ0k3eD-7eoWxmQVv0Fxi0Z1-3xjJBNSW8XkNhwk">Publications</a>
-*  <a target="_blank" rel="noopener noreferrer" href="https://dlab.berkeley.edu/people/dr-michael-samuel">Visual Display Workshops</a>
+# Education
 
-
-#  Education 
-*  DrPH - Biostatistics/Epidemiology, University of California, Berkeley
-*  MPH  - Biostatistics, University of California, Berkeley 
-*  B.S. - Conservation and Resource Studies,  University of California, Berkeley
-
+-   DrPH - Biostatistics/Epidemiology, University of California, Berkeley
+-   MPH - Biostatistics, University of California, Berkeley
+-   B.S. - Conservation and Resource Studies, University of California, Berkeley
 
 # Contact
-*  Michael.Samuel@cdph.ca.gov
-*  samfam921@gmail.com
-*  cell 925.285.2926
+
+-   [Michael.Samuel\@cdph.ca.gov](mailto:Michael.Samuel@cdph.ca.gov){.email}
+-   [samfam921\@gmail.com](mailto:samfam921@gmail.com){.email}
+-   cell 925.285.2926
 
 <br>
 
@@ -70,13 +86,3 @@ tDat <- data.frame(myDat = rnorm(1000))
 
 ggplot(data=tDat, aes(x=myDat)) + geom_density(size=1.2,fill="cyan") + theme_void()
 ```
-
-
-
-
-
-
-
-
-
-

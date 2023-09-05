@@ -22,8 +22,8 @@ knitr::opts_chunk$set(echo = TRUE)
 # https://appsilon.com/blog/ (good training resources?)
 
 
-library(readr)
-covid <- read_csv("COVID-19_Case_Surveillance_Public_Use_Data.csv")
+# library(readr)
+# covid <- read_csv("COVID-19_Case_Surveillance_Public_Use_Data.csv")
 
 
 ```
@@ -57,10 +57,10 @@ h2 { /* Header 2 */
 
 # Example Projects and Activities
 
--   <a target="_blank" rel="noopener noreferrer" href="https://discovery.cdph.ca.gov/fusion/communityburden/)">Key work project: California Community Burden of Disease Engine</a>
+-   <a target="_blank" rel="noopener noreferrer" href="https://skylab.cdph.ca.gov/communityBurden/">Key work project: California Community Burden of Disease Engine</a>
 -   <a target="_blank" rel="noopener noreferrer" href="https://github.com/mcSamuelDataSci/">GitHub Site</a>
 -   <a target="_blank" rel="noopener noreferrer" href="https://scholar.google.ca/citations?view_op=list_works&hl=en&user=eP0-Z04AAAAJ&gmla=AJsN-F6_KIIXGk6cFMgGswLXImQ0vopI6uIwDh7J17jKe3peyLK-xNjczktM_-9xDf-WHCrFVlYM-eXzatKdjfS-fdul8le5LG1ihZ0k3eD-7eoWxmQVv0Fxi0Z1-3xjJBNSW8XkNhwk">Publications</a>
--   <a target="_blank" rel="noopener noreferrer" href="https://dlab.berkeley.edu/people/dr-michael-samuel">Visual Display Workshops</a>
+-   <a target="_blank" rel="noopener noreferrer" href="https://goo.gl/wgLkoR">Visual Display Workshops</a>
 
 # Education
 
@@ -84,5 +84,5 @@ library(ggplot2)
 tDat <- data.frame(myDat = rnorm(1000))
 
 
-ggplot(data=tDat, aes(x=myDat)) + geom_density(size=1.2,fill="cyan") + theme_void()
+ggplot(data=tDat, aes(x=myDat)) + geom_density(linewidth=1.2,fill="cyan") + theme_void()
 ```
